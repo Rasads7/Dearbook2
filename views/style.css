@@ -1,0 +1,82 @@
+.navbar {
+    background-color: #343a40;
+}
+
+#barranav {
+    background-color: rgb(65,105,225) !important; /* Cor de fundo na barra: azul */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* Cor do texto branco */
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    background-color: rgb(211,211,211);
+}
+header h1{
+    color: rgb(0,0,0);
+    font-size: 50px;
+}
+header hr{
+    border-top: 1px solid rgb(65,105,225);
+    width: 30%;
+    margin: 10px auto;
+}
+.texto-com-retangulo {
+    padding: 50px; /* Espaçamento interno de 20px */
+    max-width: 800px; /* Largura máxima do retângulo */
+    margin: 20px auto; /* Centralizar horizontalmente */
+    text-align: center; /* Centralizar o texto */
+    border-radius: 20px
+}
+.container{
+    margin-top: 30px;
+}
+.livro {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    width: 45%; /* Adicionando uma largura para cada livro */
+}
+.livro img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+.livro h3 {
+    font-size: 18px;
+    margin: 0;
+}
+.sobre{
+    font-size: 20px;
+}
+
+.contato{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.linklivro{
+    color: rgb(65,105,225);
+}
+
+.texto-com-retangulo h2{
+    color: rgb(0,0,0);
+}
+
+.texto-com-retangulo p{
+    color: rgb(0,0,0);
+}
+
+.btn.btn-primary{
+    background-color: rgb(65,105,225);
+}
