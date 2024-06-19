@@ -4,6 +4,7 @@ const path = require('path');
 const app = express();
 const session = require('express-session');
 const db = require('./src/db');
+const bodyParser = require('body-parser'); 
 
 app.engine('html', mustacheExpress());
 app.set('view engine', 'html');
@@ -17,6 +18,9 @@ app.use(session({
     resave: false,
     saveUninitialized: false
 }))
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 app.use('/', require('./src/routes/rotas'));
 app.use('/', require('./src/routes/autenticacaorotas'));
