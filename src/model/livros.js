@@ -8,11 +8,7 @@ const Livro = database.define('livro', {
         allowNull: false,
         primaryKey: true
     },
-    id_usuario: {
-        type: Sequelize.INTEGER,
-        allowNull: false
-    },
-    titulo: {
+    nome: {
         type: Sequelize.STRING,
         allowNull: false
     },
